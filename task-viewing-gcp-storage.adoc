@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-gcp-storage.html 
+keywords: google cloud storage buckets, google cloud storage, google cloud storage working environment 
+summary: Google CloudにConnectorをインストールすると、BlueXPは、ConnectorがインストールされているGoogleアカウントにあるGoogle Cloudバケットに関する情報を自動的に検出できます。Google Cloud Storage作業環境がCanvasに追加され、この情報を表示できます。 
+---
+= Google Cloud Storageバケットを表示します
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Google CloudにConnectorをインストールすると、BlueXPは、ConnectorがインストールされているGoogleアカウントにあるGoogle Cloud Storageバケットに関する情報を自動的に検出できます。Google Cloud Storage作業環境がCanvasに追加され、この情報を表示できます。
+
+Google Cloud Storageバケットの場所、アクセスステータス、ストレージクラス、合計容量と使用済み容量などの詳細を確認できます。これらのバケットは、BlueXPのバックアップとリカバリ、BlueXPの階層化、BlueXPのコピーと同期の処理のデスティネーションとして使用できます。
+
+.手順
+. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["コネクタを取り付ける"^] Google Cloud Storageバケットを表示するGoogleアカウント。
+. ナビゲーションメニューから、*ストレージ>キャンバス*を選択します。
++
+しばらくすると、Google Cloud Storageの作業環境が自動的に表示されます。
+
++
+image:screenshot-gcp-cloud-storage-we.png["Google Cloud Storage作業環境のスクリーンショット。"]
+
+. Google Cloud StorageでBlueXPサービスを有効にする場合は、作業環境を選択し、右側のペインから操作を選択します。
++
+image:screenshot-gcp-cloud-storage-actions.png["Google Cloud Storage作業環境を選択した後の操作ペインを示すスクリーンショット。ペインには、バケットの総数と実行可能なアクションが表示されます。"]
+
++
+link:task-gcp-enable-data-services.html["利用可能なBlueXPサービスを確認し、Google Cloud Storageバケットでそれらのサービスを使用する方法を確認します"]。
+
+. Googleアカウント内のバケットに関する詳細を表示するには、*[Enter Working Environment]*を選択するか、作業環境をダブルクリックします。
++
+image:screenshot-gcp-cloud-storage-details.png["Google Cloud Storage作業環境の詳細を示すスクリーンショット。バケット、容量、場所の総数、および各バケットの詳細を示す表を示しています。"]
+
++
+デフォルトで表示される列に加えて、ページをスクロールしてバケットのその他のプロパティ（ラベルの数、有効になっている暗号化のタイプなど）を表示できます。
+
+
+
+.次のステップ
+一部のバケット設定は、をクリックしてBlueXPから直接変更できます image:button-horizontal-more.gif["3つの点の詳細ボタン"] バケツのために。 link:task-change-gcp-bucket-settings.html["詳細については、こちらをご覧ください"]。
+
+新しいバケットを追加するには、*[Add bucket]*をクリックします。 link:task-add-gcp-bucket.html["詳細については、こちらをご覧ください"]。

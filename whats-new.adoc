@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: BlueXPのGoogle Cloud Storageの新機能をご紹介します。 
+---
+= BlueXPのGoogle Cloud Storageの新機能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXPのGoogle Cloud Storageの新機能をご紹介します。
+
+
+
+== 2023年7月10日
+
+
+
+=== BlueXPから新しいバケットを追加したり、既存のバケットを管理したりできます
+
+BlueXPキャンバスでGoogle Cloud Storageのバケットを表示できるようになりました。BlueXPから直接、新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。 https://docs.netapp.com/us-en/bluexp-google-cloud-storage/task-add-gcp-bucket.html["新しいGoogle Cloud Storageバケットを追加する方法をご覧ください"^]。

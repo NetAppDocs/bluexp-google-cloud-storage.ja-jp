@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: task-gcp-enable-data-services.html 
+keywords: google buckets, google storage, google cloud storage working environment, google cloud storage buckets 
+summary: BlueXPでGoogle Cloud Storageバケットを検出したら、NetAppデータサービスを使用してバックアップ、階層化、データ同期を実行できます。 
+---
+= Google Cloud StorageバケットでNetAppデータサービスを使用
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXPでGoogle Cloud Storageバケットを検出したら、NetAppデータサービスを使用してバックアップ、階層化、データ同期を実行できます。
+
+* BlueXPのバックアップとリカバリ*を使用して、オンプレミスのONTAPシステムやCloud Volumes ONTAPシステムからGoogle Cloudオブジェクトストレージにデータをバックアップできます。
++
+作業を開始するには、キャンバスに移動し、オンプレミスのONTAPまたはCloud Volumes ONTAP作業環境をGoogle Cloud Storage作業環境にドラッグアンドドロップします。
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["ONTAPデータをGoogle Cloud Storageにバックアップする方法については、こちらをご覧ください"^]。
+
+* BlueXP階層化*を使用して、アクセス頻度の低いデータをオンプレミスのONTAPクラスタからGoogle Cloudオブジェクトストレージに階層化できます。
++
+作業を開始するには、キャンバスに移動し、オンプレミスのONTAP作業環境をGoogle Cloud Storage作業環境にドラッグアンドドロップします。
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-gcp.html["ONTAPデータをGoogle Cloud Storageに階層化する方法については、こちらをご覧ください"^]。
+
+* BlueXPのコピーと同期*を使用して、Google Cloud Storageバケットとの間でデータを同期します。
++
+作業を開始するには、Canvasに移動し、ソースの作業環境をターゲットの作業環境にドラッグアンドドロップします。Google Cloud Storageの作業環境は、ソースとターゲットのどちらでもかまいません。
+
++
+Google Cloud Storage作業環境を選択し、[サービス]パネルの*[コピーと同期]*をクリックして、Cloud Storageバケットとの間でデータを同期することもできます。
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["BlueXPのコピーと同期サービスの詳細については、こちらをご覧ください"^]。
+
+
