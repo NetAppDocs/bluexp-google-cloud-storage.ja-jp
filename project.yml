@@ -35,32 +35,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法的通知
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: はじめに
-    links:
-    - title: Google Cloud Storageバケットを表示します
-      url: task-viewing-gcp-storage.html
-  - title: Google Cloud Storageバケットを管理します
-    links:
-    - title: バケットを追加します
-      url: task-add-gcp-bucket.html
-    - title: バケット設定を変更します
-      url: task-change-gcp-bucket-settings.html
-    - title: Google Cloud StorageバケットでNetAppデータサービスを使用
-      url: task-gcp-enable-data-services.html
-  - title: 詳細情報
-    links:
-    - title: BlueXP以外で管理するためのGoogle Cloud Storageのドキュメント
-      url: https://cloud.google.com/storage/docs/creating-buckets
-  - title: ブログとコミュニティ
-    links:
-    - title: ネットアップコミュニティ
-      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: BlueXPブログ
-      url: https://bluexp.netapp.com/blog/topic/cloud-manager
-    - title: クラウドに関する Web セミナー
-      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
