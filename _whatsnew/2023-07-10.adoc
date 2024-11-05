@@ -1,24 +1,6 @@
----
-sidebar: sidebar 
-permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
-summary: BlueXPのGoogle Cloud Storageの新機能をご紹介します。 
----
-= BlueXPのGoogle Cloud Storageの新機能
-:hardbreaks:
+= BlueXPから新しいバケットを追加したり、既存のバケットを管理したりできます
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
-
-[role="lead"]
-BlueXPのGoogle Cloud Storageの新機能をご紹介します。
-
-
-
-== 2023年7月10日
 
 
 
