@@ -1,5 +1,7 @@
 = BlueXPから新しいバケットを追加したり、既存のバケットを管理したりできます
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
